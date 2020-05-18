@@ -1,0 +1,230 @@
+:root {
+  --first-color: #dbe4e8;
+  --second-color: #f5f5f5;
+  --third-color: #990099;
+  --forth-color: black;
+  --font:'Inconsolata';
+  --shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+body{ 
+	font-family: var(--font);
+	margin: 0;
+	background-color: var(--first-color); 
+	padding-top: 100px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+
+/*nav*/
+.banner{
+	width: 100%;
+	display: flex;
+	flex-flow:wrap;
+	align-items: center;
+	list-style-type: none;
+	background-color: var(--forth-color);
+	position: fixed;
+	top: 0;
+	color: var(--third-color);
+	box-shadow: var(--shadow);
+
+}
+
+.title{	
+	margin-left: 1em;
+	text-align: center;
+	color: #fff;
+}
+
+a{
+  color: var(--third-color);
+  width: 100px;
+  text-decoration: none; 
+        } 
+}
+
+a:hover{
+	 color: #fff;
+}
+
+.banner li {
+  display: inline;
+  margin: 1rem;
+  font-size: 20px;
+}
+
+.banner ul {
+  list-style-type: none;
+  
+}
+
+/*about me*/
+.about-me{
+	display: flex;
+	justify-content: center;
+	width: 80vw;
+	margin: 1rem;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: var(--second-color);
+	box-shadow: var(--shadow);
+}
+.profile{
+	padding: 20px;
+}
+.profile-pic{
+	padding: 20px;
+
+}
+.about-me-text{
+	padding: 20px;
+}
+
+.social-media li {
+	margin:10px;
+	display: inline;
+}
+.social-media ul {
+	list-style-type: none;
+}
+
+/*career*/
+
+.career{
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	margin: 1rem;
+}
+
+.goals{
+	width: 45vw;
+	min-height: 250px;
+	padding: 20px;
+	margin: 1rem;
+	border-radius: 10px;
+	background-color: var(--second-color);
+	box-shadow: var(--shadow);
+}
+
+.skills{
+	width: 30vw;
+	min-height: 250px;
+	padding: 20px;
+	margin: 1rem;
+	border-radius: 10px;
+	background-color: var(--second-color);
+	box-shadow: var(--shadow);
+}
+
+
+/*projects*/
+
+
+.projects{
+	width: 80vw;
+	margin: 1rem;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: var(--second-color);
+	box-shadow: var(--shadow);
+	
+}
+
+.project{
+	margin: auto;
+	padding: 20px;
+    text-align: center;
+    
+}
+
+
+
+/*contact*/
+
+.contact-form{
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	list-style-type: none;
+	width: 80vw;
+	margin: 1rem;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: var(--second-color);
+	box-shadow: var(--shadow);
+}
+.contact{
+	padding: 10px;
+	text-align: left;
+	margin: 0 auto;
+
+}
+
+input{
+	min-width: 30vw;
+	margin: 1rem;
+	min-height: 30px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+	background-color: var(--third-color);
+	border: none;
+	color: white;
+	padding: 1rem;
+	text-decoration: none;
+	margin: 1rem;
+	cursor: pointer;
+ 	width: 31vw;
+ 	border-radius: 1000vh;
+ 	box-shadow: var(--shadow);
+
+}
+/*resume*/
+
+.jobs{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	width: 80vw;
+	margin: 1rem;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: var(--second-color);
+	box-shadow: var(--shadow);
+
+}
+.job{
+	padding: 20px;
+}
+
+/*education*/
+.education{
+	text-align: left;
+	width: 80vw;
+	margin: 1rem;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: var(--second-color);
+	box-shadow: var(--shadow);
+
+}
+
+
+
+/*footer*/
+.footer{
+	margin-top: 20px;
+	width: 100vw;
+	background-color: var(--forth-color);
+	color: #fff;
+	text-align: center;
+	max-height: 50px;
+}
+
